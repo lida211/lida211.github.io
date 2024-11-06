@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"="width=device-width, initial-scale=1.0">
+    <title>首页</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('./images/为人民服务jpg.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            opacity: 1;
+        }
+
+        header {
+            position: relative;
+            color: rgb(255, 0, 0);
+            text-align: center;
+            padding: 10px;
+        }
+
+        header::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('./images/20201217100953173.jpg');
+            background-size: cover;
+            background-position: 0px -50px;
+            opacity: 0.8;
+            z-index: -1;
+        }
+
+        nav {
+            background-color: #2600ff71;
+            padding: 5px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        nav ul li {
+            margin: 0;
+        }
+
+        nav ul li a {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            padding: 10px 20px;
+            display: inline-block;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+      .intro-section {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+      .character-section {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
+        }
+
+      .character-card {
+            width: 30%;
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+
+      .character-card img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+      .btn {
+            display: block;
+            margin: 0 auto;
+            padding: 10px 20px;
+            background-color: #2600ff71;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>人民的名义</h1>
+        <nav>
+            <ul>
+                <li><a href="./首页.html">首页</a></li>
+                <li><a href="./人民的名义.html">更多</a></li>
+                <li><a href="./人民电视/人民的名义电视.html">观看</a></li>
+        </nav>
+    </header>
+
+    <main>
+        <div class="intro-section">
+            <h2>剧集简介</h2>
+            <p>《人民的名义》是一部极具影响力的反腐题材电视剧</p>
+            <p>通过讲述汉东省各级官员在权力、金钱、欲望面前的不同选择和命运，给我们展示了怎样才能正确进部</p>
+        </div>
+
+        <div class="character-section">
+            <div class="character-card">
+                <img src="./images/侯亮平.png" alt="侯亮平">
+                <h3>侯亮平</h3>
+                <p>最高人民检察院反贪总局侦查处处长，为人正直、勇敢，在反腐倡廉的道路上冲锋在前。</p>
+            </div>
+        <div class="character-card">
+                <img src="./images/祁同伟.png" alt="祁同伟">
+                <br>
+                <br>
+                <br>
+                <h3>祁同伟</h>
+                <p>汉东省公安厅厅长，出身贫寒却在权力的诱惑下逐渐迷失自我，走向了堕落的道路。</p>
+            </div>
+            <div class="character-card">
+                <img src="./images/李达康.png" alt="李达康">
+                <br>
+                <br>
+                <h3>李达康</h3>
+                <p>汉东省京州市委书记，是一位一心扑在工作上，追求GDP增长，但在某些方面也存在争议的官员。</p>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+</html>
